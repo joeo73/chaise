@@ -1,0 +1,27 @@
+/*html reset*/
+
+body, h1, h2, h3, h4, h5, h6, pre, p, address, li, dl, dt, dd, table, caption, th, td, form, fieldset, legend 
+  { font: .7em Verdana, Arial, Helvetica, sans-serif; color: #303030; margin: 0; padding: 0; }
+
+table { border: 1px solid black; border-spacing: 0px;}
+td { padding: 5px 2px 2px 5px; }
+
+#top { height: 35px; }
+#top table { display: block; margin-left: auto; margin-right: auto }
+#body { height: 400px; overflow: scroll; }
+
+#dialog { border: 1px solid black; background: white; }
+
+div.ui-dialog-titlebar { background: white; border-left: 1px;}
+div.ui-dialog { overflow: scroll; }  
+span.ui-icon-closethick { float: right; }
+
+.jquery-dialog{ 
+  overflow-y: auto; 
+  height: 500px; 
+} 
+
+tr.error td { color: red; }
+tr.fatal td { color: red; }
+tr.debug td { color: green; }
+tr.info td { color: gray; }
